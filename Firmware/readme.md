@@ -1,0 +1,3 @@
+20260627:
+1. I2C: Read/Write ISO14443A/B, ISO15693, FeliCa; Emulate Mifare1, NTAG21x, ISO15693, ISO14443B
+2. UART: Compatible with PN532 & PN532Killer
