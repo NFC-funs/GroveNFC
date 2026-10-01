@@ -1,4 +1,6 @@
-# GroveNFC_API-20261001.zip
+# API release:
+
+## GroveNFC_API-20261001.zip
 - This demo demonstrates reading/writing and emulating Tags via I2C.
 - Core1 runs NFC functions; Core0 handles user interface such as I2C.
 - USB for CDC and MSC: 
@@ -19,14 +21,14 @@ Mifare 1 local key recovery: mfkey32, mfkey64, StaticNested, dictionary;
 
 Emulate Amiibo for unlimited usage;
 
-# API & Secondary Development
+## API & Secondary Development
 - Purpose: For secondary development of the GroveNFC module itself (customize functionality, protocol, etc.)
 - Based on: RP2040 C/C++ SDK v2.3.0
 
-# API first release: GroveNFC_API-20260320.zip
+## API first release: GroveNFC_API-20260320.zip
 - This is a demo program designed to demonstrate how to call relevant functions to implement NFC functionality.
 
-# API & Secondary Development
+## API & Secondary Development
 - Purpose: For secondary development of the GroveNFC module itself (customize functionality, protocol, etc.)
 - Based on: RP2040 C/C++ SDK v2.1.0
 - Includes: Complete API documentation, static library, and development templates
