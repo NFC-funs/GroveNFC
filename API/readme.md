@@ -1,4 +1,4 @@
-# API first release: GroveNFC_API-20261001.zip
+# GroveNFC_API-20261001.zip
 - This demo demonstrates reading/writing and emulating Tags via I2C.
 - Core1 runs NFC functions; Core0 handles user interface such as I2C.
 - USB for CDC and MSC: 
