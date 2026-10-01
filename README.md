@@ -7,7 +7,7 @@ A full-featured NFC reader/writer & emulator supporting ISO14443A, ISO14443B, IS
 
 # Development Features
 - Static libraries enable independent development for standalone product deployment
-- Based on Raspberry Pi Pico / RP2040 C/C++ SDK v2.1.0
+- Based on Raspberry Pi Pico / RP2040 C/C++ SDK v2.1.0 or later
 
 # Compatible Host Hardware
 GroveNFC works as a peripheral module, and is compatible with most 3.3V/5V embedded hosts with standard Grove or Gravity interface:
