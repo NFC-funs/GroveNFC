@@ -2,13 +2,21 @@
 - This demo demonstrates reading/writing and emulating Tags via I2C.
 - Core1 runs NFC functions; Core0 handles user interface such as I2C.
 - USB for CDC and MSC: 
-CDC emulates GroveNFC as PN532Killer-compatible device; 
+
+CDC emulates GroveNFC as PN532Killer-compatible device;
+
 MSC emulates GroveNFC as USB drive to store Tag data, Amiibo data and Mifare1 dictionaries;
+
 MSC ported from [https://github.com/oyama/pico-usb-flash-drive](https://github.com/oyama/pico-usb-flash-drive)
-- Based on this API, the following functions can be implemented:
+
+- The following functions are implemented based on this API.
+
 Emulate various types of Mifare1 Tags;
+
 All Mifare 1 attack types;
+
 Mifare 1 local key recovery: mfkey32, mfkey64, StaticNested, dictionary;
+
 Emulate Amiibo for unlimited usage;
 
 # API & Secondary Development
