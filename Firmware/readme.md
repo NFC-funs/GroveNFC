@@ -1,9 +1,9 @@
 # 20261001:
-1. Added 9632 LCD UI.
+1. Added 9632 LCD UI. Supports Chinese character display.
 2. UI, I2C and USB can run independently.
 3. Add file system, 128K for file storage
-4. Added various Mifare1 attack methods:
-
+4. Added Amiibo emulation
+5. Added various Mifare1 attack methods:
 - Nested
 - StaticNested, key recovery time: 2~110s (max)
 - Hardnested, Collect ~100 nonces per second
